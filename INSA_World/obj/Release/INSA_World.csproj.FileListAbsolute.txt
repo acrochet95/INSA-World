@@ -1,0 +1,5 @@
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\INSA_World\bin\Release\INSA_World.pdb
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\INSA_World\obj\Release\INSA_World.pdb
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\INSA_World\obj\Release\INSA_World.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\INSA_World\bin\Release\INSA_World.dll
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\INSA_World\obj\Release\INSA_World.dll

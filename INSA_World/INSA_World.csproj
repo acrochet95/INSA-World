@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D167A69-8854-41E0-8610-2FF0A7BF7133}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>INSA_World</RootNamespace>
+    <AssemblyName>INSA_World</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algo.cs" />
+    <Compile Include="commands\Attack.cs" />
+    <Compile Include="commands\Battle.cs" />
+    <Compile Include="commands\BattleConsequences.cs" />
+    <Compile Include="game\BuilderGame.cs" />
+    <Compile Include="map\BuilderMap.cs" />
+    <Compile Include="commands\CommandManager.cs" />
+    <Compile Include="game\DemoGameBuilder.cs" />
+    <Compile Include="map\BuilderDemoMap.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="map\tile\FactoryTile.cs" />
+    <Compile Include="game\IBuilderGame.cs" />
+    <Compile Include="map\IBuilderMap.cs" />
+    <Compile Include="player\IBuilderPlayer.cs" />
+    <Compile Include="commands\ICommand.cs" />
+    <Compile Include="map\tile\ITile.cs" />
+    <Compile Include="unit\IUnitFactory.cs" />
+    <Compile Include="map\Map.cs" />
+    <Compile Include="map\tile\TileDesert.cs" />
+    <Compile Include="race\Centaur.cs" />
+    <Compile Include="race\Cyclop.cs" />
+    <Compile Include="race\Cerberus.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="game\Game.cs" />
+    <Compile Include="map\tile\TilePlain.cs" />
+    <Compile Include="player\Player.cs" />
+    <Compile Include="commands\Move.cs" />
+    <Compile Include="player\PlayerBuilder.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="race\Race.cs" />
+    <Compile Include="map\tile\TileSwamp.cs" />
+    <Compile Include="map\tile\TileVolcano.cs" />
+    <Compile Include="game\SmallGameBuilder.cs" />
+    <Compile Include="map\BuilderSmallMap.cs" />
+    <Compile Include="game\StandardGameBuilder.cs" />
+    <Compile Include="map\BuilderStandardMap.cs" />
+    <Compile Include="unit\Unit.cs" />
+    <Compile Include="unit\UnitFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="initGame.sequencediagram" />
+    <None Include="battle.sequencediagram" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="initGame.sequencediagram.layout">
+      <DependentUpon>initGame.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="battle.sequencediagram.layout">
+      <DependentUpon>battle.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Release\libCPP.dll">
+      <Link>libCPP.dll</Link>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

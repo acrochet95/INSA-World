@@ -1,0 +1,7 @@
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\TestUnitaire\obj\Debug\TestUnitaire.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\TestUnitaire\bin\Debug\TestUnitaire.dll
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\TestUnitaire\bin\Debug\TestUnitaire.pdb
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\TestUnitaire\bin\Debug\INSA_World.dll
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\TestUnitaire\bin\Debug\INSA_World.pdb
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\TestUnitaire\obj\Debug\TestUnitaire.dll
+C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\TestUnitaire\obj\Debug\TestUnitaire.pdb

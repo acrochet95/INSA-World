@@ -1,0 +1,14 @@
+﻿La génération a démarré 02/12/2016 10:42:13.
+     1>Projet "C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\libCPP\libCPP.vcxproj" sur le nœud 3 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBCPP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Algo.cpp
+         Algo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\Debug\libCPP.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\Debug\libCPP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\Debug\libCPP.lib" /MACHINE:X86 /DLL Debug\Algo.obj
+            Création de la bibliothèque C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\Debug\libCPP.lib et de l'objet C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\Debug\libCPP.exp
+         libCPP.vcxproj -> C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\Debug\libCPP.dll
+     1>Génération du projet "C:\Users\Antoine\Documents\Visual Studio 2015\Projects\insa-world\libCPP\libCPP.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.49
