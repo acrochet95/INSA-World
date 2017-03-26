@@ -6,8 +6,9 @@ The game is a turn-by-turn game. Each player manages a race. The goal of the gam
 
 
 ## Technology used
-C++ (fill the map and suggest moves)
 
-C#
-
-WPF
+<ul>
+  <li>C++ (fill the map and suggest moves)</li>
+  <li>C#</li>
+  <li>WPF</li>
+</ul>
